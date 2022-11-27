@@ -5,8 +5,8 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -56,8 +56,8 @@
 }
 
 .page-content {
-    padding: 10px;
     min-height: 90vh;
+    padding: 15px 20px;
 }
 
 .full-size-height {
@@ -118,6 +118,14 @@
     width: 100%;
 }
 
+.grey-back {
+    background-color: #dcdcdc;
+}
+
+.white-back {
+    background-color: #ffffff;
+}
+
 .text-green {
     color: #0a8438;
 }
@@ -134,6 +142,10 @@
     text-align: right;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .margin-auto {
     margin: auto;
 }
@@ -144,14 +156,6 @@
 
 .clear {
     clear: both;
-}
-
-.box {
-    margin: 10px 20px;
-    padding: 15px;
-    border-radius: 8px;
-    border: 2px solid #ded1d1;
-    box-shadow: 0px 0px 3px 2px #ffffff;
 }
 
 .blue-back {
@@ -172,6 +176,37 @@
     text-align: center;
 }
 
+.box {
+    margin: 10px 20px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #d3d1d1;
+    box-shadow: 0px 0px 3px 2px #ffffff;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+    .flex > div {
+        padding: 15px;
+    }
+
+.flex-1 {
+    flex: 1 auto;
+}
+
+.flex-2 {
+    flex: 2 auto;
+}
+
+.flex-3 {
+    flex: 3 auto;
+}
+
 @media screen and (min-width: 1000px) {
     .navbar-brand {
         display: inline-block;
@@ -187,7 +222,4 @@
             display: inline-block;
             width: auto;
         }
-
-            .navbar > ul > li > a {
-            }
 }
