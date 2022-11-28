@@ -10,6 +10,7 @@ namespace LayoutsViewsExample.Controllers
 			return View();
 		}
 
+		// Url: /search/products
 		// Url: /search/products/1
 		[Route("search-products/{ProductID?}")]
 		public IActionResult Search(int? ProductID)
